@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Droid serif', serif !important;
+    text-decoration: none !important;
+}
+
+#grocery-banner {
+    position: relative;
+}
+
+#grocery-banner img {
+    width: 100vw;
+    height: auto;
+}
+
+#homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 30vh;
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    left: 20%;
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0.731);
+    border-radius: 20px 0 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#homepage-container p {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    color: rgb(85, 83, 83);
+}
+
+#homepage-container small {
+    font-size: 30px;
+    font-style: italic;
+}
+
+/* CSS */
+.shopBtn {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 20vw;
+}
+
+.shopBtn:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.shopBtn:hover {
+  background-color: #2c974b;
+}
+
+.shopBtn:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.shopBtn:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.shopBtn:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.shopBtn a {
+    color: white;
+}
